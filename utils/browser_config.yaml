@@ -1,0 +1,3 @@
+browser: chrome        # Options: chrome, firefox, edge, safari, remote
+headless: true         # Only supported for Chrome/Firefox/Edge
+remote_url: http://localhost:4444/wd/hub  # Used if browser: remote

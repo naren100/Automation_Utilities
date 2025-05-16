@@ -1,0 +1,14 @@
+env: "staging"
+
+environments:
+  dev:
+    base_url: "https://dev.southwest.com"
+  staging:
+    base_url: "https://staging.southwest.com"
+  prod:
+    base_url: "https://www.southwest.com"
+
+urls:
+  home: "/"
+  login: "/login"
+  flights: "/air/booking"
